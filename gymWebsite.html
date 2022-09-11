@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Taviraj:ital,wght@0,400;1,300&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+/* css reset */
+body{
+margin: 0px;
+padding: 0px;
+color: white;
+font-family: 'Baloo Bhaijaan 2', cursive;
+background: url('/img/treadmill-5030966_1920.jpg') no-repeat center center/cover;
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    
+}
+.left img{ 
+    width: 85px;    
+    /* filter: invert(100%); */
+background: transparent;
+border-radius: 60px;
+}
+.left div{
+    text-align: center;
+    line-height: 3px;
+    font-size: 17px;
+
+}
+.mid{
+/* border: 2px solid rgb(17, 255, 0); */
+/* width: 18%; */
+display: block;
+margin: 12px auto;
+width: 75%;
+
+
+
+}
+
+.right{
+    /* border: 2px solid rgb(0, 38, 255); */
+display: inline-block;
+position: absolute;
+right: 34px;
+top: 29px;
+
+}
+.btn{
+    margin: 0px 9px;
+    background-color: rgba(131, 126, 126, 0);
+    color: rgb(235, 242, 244);
+    padding: 4px 14px;
+    border: solid rgba(128, 128, 128, 0.027);
+    border-radius: 23px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+.btn:hover{
+    color: red;
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+ font-size: 25px;
+    
+}
+.navbar li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 30px 23px;
+
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(218, 15, 15);
+}
+.container{
+    border: 2px solid white;
+    margin: 106 80px;
+    padding: 75px;
+    width: 33%;
+    display: block;
+    border-radius: 28px;
+}
+.form-group input{
+text-align: center;
+display: block;
+width: 350px;
+padding: 2px;
+font-size: 22px;
+border-radius: 18px;
+border: 2px solid black;
+margin: 11px auto;
+font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+
+ h1{
+    text-align: center;
+    color: #f6f7f7;
+}
+form .btn{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+</style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="left">
+<img src="/img/Anuj.jpeg" alt="Error">
+            <div>Anuj Fitness</div> 
+
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active" >Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+                </ul>
+            
+</div>
+            <div class="right">
+<button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+       
+        </div>
+    </header>
+    
+
+    <h1>Join the best gym of Pune now</h1>
+
+    <form action="noaction.php">
+     <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Name">
+
+     </div>
+     <div class="form-group">
+        <input type="text" name="" placeholder="Enter yourAge">
+
+     </div> <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Gender">
+
+     </div> <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Locality">
+
+     </div>
+    
+     <button class="btn">Submit</button>
+    </form>
+
+
+
+</body>
+</html>
